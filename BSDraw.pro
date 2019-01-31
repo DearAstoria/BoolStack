@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-04-26T12:52:53
+# Project created by QtCreator 2018-05-06T12:55:53
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 2dDraw
+TARGET = BSDraw
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,13 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
-    mainDraw.cpp
+        login.cpp \
+    draw.cpp \
+    about.cpp
 
 HEADERS += \
-        mainwindow.h \
-    mainDraw.h
+        login.h \
+    draw.h \
+    about.h
 
 FORMS += \
-        mainwindow.ui \
-    mainDraw.ui
+        login.ui \
+    draw.ui \
+    about.ui
